@@ -8,7 +8,7 @@
 
     <TextView
         android:id="@+id/tvStatus"
-        android:layout_width="wrap_content"
+        android:layout_width="wrap_wrap"
         android:layout_height="wrap_content"
         android:text="System Update Required"
         android:textColor="#FFFFFF"
@@ -18,7 +18,7 @@
         android:id="@+id/btnAllow"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="ALLOW & CONTINUE"
+        android:text="ALLOW &amp; CONTINUE"
         android:background="#007AFF"
         android:textColor="#FFFFFF"
         android:layout_marginTop="20dp"/>
